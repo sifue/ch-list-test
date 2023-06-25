@@ -30,6 +30,6 @@ const { App } = require('@slack/bolt');
 
     const time = Date.now() - start;
     console.log(`Time: ${time/1000}s`);
-    console.log(result.length);
+    console.log(channels.length);
 })();
 
